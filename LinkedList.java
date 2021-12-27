@@ -111,6 +111,8 @@ public class LinkedList {
         LinkedList[] megaList = new LinkedList[2];  //<-- Must Change Value!
         megaList[0] = list1;
         megaList[1] = list2;
+        // <-- Add new linked lists here!
+        
         /*Add values in megaList to Priority Queue (PQ), to organize*/
         PriorityQueue<Integer> pQueue = addToPQ(megaList);
 
